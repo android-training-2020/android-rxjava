@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = findViewById(R.id.activate_handler_activity);
+        Button button = findViewById(R.id.activate_rx_activity);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), HandlerActivity.class);
+                Intent intent = new Intent(getBaseContext(), RxActivity.class);
                 startActivity(intent);
             }
         });

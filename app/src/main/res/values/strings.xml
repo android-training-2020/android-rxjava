@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">android-activity</string>
-    <string name="startThreadActivity">activate handler activity</string>
-    <string name="message_a">send message 1</string>
-    <string name="message_b">send message 2</string>
+    <string name="startRxActivity">activate rx activity</string>
+    <string name="startCounter">start counter</string>
 </resources>
